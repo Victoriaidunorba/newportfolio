@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import fashlaptop from '../../public/fashionlaptop.PNG'
+import fashlaptop from '../../public/fashionlaptop.png'
 import fashphone from '../../public/fashphone.png'
 import fashiontab from '../../public/fashionphones.png'
 import androidicon from '../../public/androidicon.png'
