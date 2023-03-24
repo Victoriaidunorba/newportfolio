@@ -2,6 +2,7 @@ import Project5 from '@/Proects/Project5'
 import Project6 from '@/Proects/Project6'
 import Projects7 from '@/Proects/Projects7'
 import Projects8 from '@/Proects/Projects8'
+import Projects9 from '@/Proects/Projects9'
 import Image from 'next/image'
 import React from 'react'
 import number1 from '../../public/number1.gif'
@@ -78,7 +79,7 @@ export default function AllProjects({}: Props) {
         <div className='justify-start text-right align-middle items-right self-right  lg:mt-[40px]'>
           <Image src={number5} alt='' className='w-48 h-48 md:w-40 md:h-36 lg:flex md:flex hidden -mt-[100px]' />
         </div>
-        <Projects8 />
+        <Projects9 />
       </div>
       </div>
 
