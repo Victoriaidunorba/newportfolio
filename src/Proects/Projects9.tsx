@@ -1,12 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import fashlaptop from '../../public/fashionlaptop.png'
-import fashphone from '../../public/fashphone.png'
+import mobilefashion from '../../public/mobilefashion.png'
 import fashiontab from '../../public/fashionphones.png'
-import androidicon from '../../public/androidicon.png'
-import nodeicon from '../../public/nodeicon.png'
-import rubyicon from '../../public/rubyicon.png'
 import cssicon from '../../public/cssicon.png'
 import reacticon from '../../public/reacticon.png'
 import javascripticon from '../../public/javascripticon.png'
@@ -29,7 +25,7 @@ export default function Projects9({ directionLeft }: Props) {
     transition={{duration: 1}}
     whileInView={{opacity: 1, x: 0}}
     className='h-[2800px] relative lg:snap-center flex overflow-hidden flex-col text-left md:flex-row
-    max-w-full justify-evenly mx-auto items-center md:top-[500px] lg:-top-[600px] -top-[420px] md:-top-[250px] wide'>
+    max-w-full justify-evenly mx-auto items-center md:top-[500px] lg:-top-[600px] -top-[420px]  wide'>
    
         <div className='w-screen wide6 flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen mt-48'>
           <motion.div 
@@ -40,7 +36,7 @@ export default function Projects9({ directionLeft }: Props) {
           transition={{duration: 1}}
           whileInView={{opacity: 1, x: 0}}
           className='w-[1000px] h-[800px] relative -mt-[680px] ml-[310px] md:-mt-[500px] md:ml-[10px] lg:-mt-[780px] lg:ml-[130px] vert-move'>
-             <Image src={fashlaptop} alt='' className='relative lg:w-[1200px] md:w-[800px] w-[450px] ml-[110px]'  />
+             <Image src={mobilefashion} alt='' className='relative lg:w-[1200px] md:w-[800px] w-[450px] ml-[110px]'  />
           </motion.div>
 
           {/* <div className="w-[1200px] h-[800px] relative -top-[600px] md:-top-[650px] lg:-top-[620px] ml-[1380px] lg:ml-[2080px] vert-move">
